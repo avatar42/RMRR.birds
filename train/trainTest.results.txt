@@ -1,0 +1,27 @@
+-Of 1 expected ['bird_humming'] found objects, found:0 objects [] in O4035881.jpg
+-Of 5 expected ['bird_cardinalf', 'bird_cardinal', 'bird_cardinal', 'bird_sparrow', 'bird_sparrow'] found objects, found:4 objects ['bird_sparrow', 'bird_sparrow', 'bird_cardinalf', 'bird_cardinal'] in Reo598.20220120_092316.2814928.3.jpg
++Of 4 expected ['bird_cardinal', 'bird_sparrow', 'bird_sparrow', 'bird_sparrow'] found objects, found:5 objects ['bird_sparrow', 'bird_sparrow', 'bird_sparrow', 'bird_sparrow', 'bird_cardinal'] in Reo598.20220120_151224.3116126.3.jpg
+For images in:../RMRR.birds/train/ with min_confidence set to 50.00%
+bird_bluejay found 3.0 of 3.0 expected objects with an average confidence of 94.02% min:91.96% max:95.15% adjusted avg:94.02%
+bird_cardinal found 188.0 of 189.0 expected objects with an average confidence of 94.65% min:51.06% max:98.10% adjusted avg:94.14%
+bird_humming found 4.0 of 5.0 expected objects with an average confidence of 90.30% min:82.92% max:94.81% adjusted avg:72.24%
+bird_sparrow found 378.0 of 377.0 expected objects with an average confidence of 94.70% min:55.78% max:98.25% adjusted avg:94.95%
+bird_dove found 262.0 of 262.0 expected objects with an average confidence of 95.53% min:51.22% max:98.61% adjusted avg:95.53%
+bird_chickadee found 80.0 of 80.0 expected objects with an average confidence of 95.20% min:83.09% max:97.52% adjusted avg:95.20%
+bird_titmouse found 36.0 of 36.0 expected objects with an average confidence of 95.64% min:93.09% max:97.37% adjusted avg:95.64%
+bird_robin found 1.0 of 1.0 expected objects with an average confidence of 86.49% min:86.49% max:86.49% adjusted avg:86.49%
+bird_swallow found 23.0 of 23.0 expected objects with an average confidence of 96.10% min:93.16% max:97.56% adjusted avg:96.10%
+bird_baby found 13.0 of 13.0 expected objects with an average confidence of 93.32% min:89.26% max:96.56% adjusted avg:93.32%
+bird_crossbill found 3.0 of 3.0 expected objects with an average confidence of 93.06% min:91.40% max:94.48% adjusted avg:93.06%
+bird_goldfinch found 1.0 of 1.0 expected objects with an average confidence of 88.08% min:88.08% max:88.08% adjusted avg:88.08%
+bird_bunting found 5.0 of 5.0 expected objects with an average confidence of 94.03% min:90.61% max:96.41% adjusted avg:94.03%
+bird_woodpecker found 1.0 of 1.0 expected objects with an average confidence of 82.80% min:82.80% max:82.80% adjusted avg:82.80%
+bird_cardinalf found 25.0 of 25.0 expected objects with an average confidence of 95.05% min:83.57% max:96.99% adjusted avg:95.05%
+bird_buntingf found 1.0 of 1.0 expected objects with an average confidence of 89.84% min:89.84% max:89.84% adjusted avg:89.84%
+
+Of 3126 tests
+ Ran:3126
+ Skipped:0
+ Passed:3124
+ Warnings:1
+ Failed:2

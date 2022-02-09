@@ -1,0 +1,7 @@
+
+Of 3126 tests
+ Ran:3126
+ Skipped:0
+ Passed:3124
+ Warnings:1
+ Failed:2

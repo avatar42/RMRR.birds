@@ -1,0 +1,57 @@
+model: yolov5m
+classes: ''
+dataset_path: ../RMRR.birds
+hyp: data/hyp.scratch.yaml
+epochs: 600
+batch_size: 16
+img_size:
+- 640
+- 640
+rect: false
+resume: false
+nosave: false
+notest: false
+noautoanchor: false
+evolve: false
+bucket: ''
+cache_images: false
+image_weights: false
+device: ''
+multi_scale: false
+single_cls: false
+adam: false
+sync_bn: false
+local_rank: -1
+log_imgs: 16
+workers: 8
+project: train-runs/RMRR.birds
+name: birds
+exist_ok: true
+cfg: .\models\yolov5m.yaml
+weights: yolov5m.pt
+data:
+  train: ../RMRR.birds\train
+  val: ../RMRR.birds\train
+  nc: 17
+  names:
+  - bird_bluejay
+  - bird_cardinal
+  - bird_humming
+  - bird_sparrow
+  - bird_dove
+  - bird_chickadee
+  - bird_titmouse
+  - bird_robin
+  - bird_swallow
+  - bird_baby
+  - bird_crossbill
+  - bird_goldfinch
+  - bird_bunting
+  - bird_woodpecker
+  - bird_cardinalf
+  - bird_buntingf
+  - ''
+total_batch_size: 16
+world_size: 1
+global_rank: -1
+save_dir: train-runs\RMRR.birds\birds
